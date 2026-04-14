@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siva Bharathi | Backend Engineer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { darkMode: 'class' }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white transition duration-500">
+
+<!-- NAVBAR -->
+<nav class="flex justify-between items-center px-6 py-4 shadow bg-white dark:bg-gray-800">
+  <h1 class="font-bold text-lg">Siva Bharathi</h1>
+  <div class="space-x-4">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <button onclick="toggleDarkMode()" class="ml-4 px-3 py-1 border rounded">🌙</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="text-center py-20 bg-white dark:bg-gray-800">
+  <h1 class="text-5xl font-bold mb-4">Backend Engineer who builds scalable APIs & AI systems</h1>
+  <p class="text-xl">Python | Django | FastAPI | Kafka | GenAI</p>
+  <p class="mt-4 max-w-2xl mx-auto">Currently building high-scale OTT backend systems at Sun TV Network powering platforms like SunNXT & SunDirectGo.</p>
+
+  <div class="mt-6 space-x-4">
+    <a href="https://github.com/SivaBharathiJS" target="_blank" class="px-4 py-2 bg-black text-white rounded">GitHub</a>
+    <a href="https://www.linkedin.com/in/siva-bharathi-js" target="_blank" class="px-4 py-2 bg-blue-600 text-white rounded">LinkedIn</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="max-w-4xl mx-auto py-16 px-6">
+  <h2 class="text-3xl font-semibold mb-6">About Me</h2>
+  <p class="leading-relaxed">
+    I’m a Backend Python Developer with 3+ years of experience building scalable, high-performance systems.
+    I specialize in designing APIs, distributed systems, and AI-powered backend features.
+  </p>
+
+  <ul class="mt-6 space-y-2">
+    <li>✔ Built APIs powering OTT platforms with thousands of users</li>
+    <li>✔ Integrated payments, DRM, and cross-platform systems</li>
+    <li>✔ Developed AI-based recommendation systems using OpenAI</li>
+  </ul>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="bg-white dark:bg-gray-800 py-16 px-6">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-3xl font-semibold mb-6">Experience</h2>
+
+    <div class="border-l-4 pl-4 space-y-4">
+      <div>
+        <h3 class="font-bold">Python Developer — Sun TV Network</h3>
+        <p class="text-sm text-gray-500">2023 - Present | Chennai</p>
+        <ul class="list-disc ml-6 mt-2">
+          <li>Built scalable backend APIs for OTT platforms</li>
+          <li>Integrated DRM, payments, and deep linking systems</li>
+          <li>Developed AI-powered content recommendation engine</li>
+          <li>Optimized live production systems for performance</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="font-bold">Software Trainer — NetworkzSystems</h3>
+        <p class="text-sm text-gray-500">2021 - 2022</p>
+        <ul class="list-disc ml-6 mt-2">
+          <li>Trained 25+ Python batches</li>
+          <li>Conducted 20+ workshops</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="max-w-4xl mx-auto py-16 px-6">
+  <h2 class="text-3xl font-semibold mb-6">Projects</h2>
+
+  <div class="grid gap-6">
+
+    <div class="p-6 border rounded-xl hover:shadow-xl transition">
+      <h3 class="font-bold text-xl">SunNXT (OTT Platform)</h3>
+      <p class="mt-2">Backend APIs powering content delivery, playback, and user experience.</p>
+    </div>
+
+    <div class="p-6 border rounded-xl hover:shadow-xl transition">
+      <h3 class="font-bold text-xl">SunDirectGo</h3>
+      <p class="mt-2">DTH + OTT platform with payments and account systems.</p>
+    </div>
+
+    <div class="p-6 border rounded-xl hover:shadow-xl transition">
+      <h3 class="font-bold text-xl">AI Recommendation Engine</h3>
+      <p class="mt-2">Built using OpenAI APIs to improve content discovery.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="text-center py-16">
+  <h2 class="text-3xl font-semibold">Let’s Work Together</h2>
+  <p class="mt-4">Open to Backend / AI / Startup roles</p>
+
+  <div class="mt-6 space-x-4">
+    <a href="mailto:bhaarusivajs@gmail.com" class="underline">Email</a>
+    <a href="https://www.linkedin.com/in/siva-bharathi-js" target="_blank" class="underline">LinkedIn</a>
+  </div>
+</section>
+
+<script>
+function toggleDarkMode() {
+  document.documentElement.classList.toggle('dark');
+}
+</script>
+
+</body>
+</html>
